@@ -1,0 +1,13 @@
+dataset : "ALCHEMY"
+dataset_node_emb : 6
+dataset_edge_emb : 4
+train_batch_size : 64
+val_batch_size : 64
+test_batch_size : 64
+seed : 41
+
+GRIT:
+  layer_type: GritTransformer
+  dataset_node_encoder_name: TypeDictNode
+  dataset_edge_encoder_name: TypeDictEdge
+  gnn_act: relu

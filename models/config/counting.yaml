@@ -1,0 +1,87 @@
+dataset : "EXP"
+dataset_node_emb : 275
+dataset_edge_emb : 2
+train_batch_size : 16
+val_batch_size : 16
+test_batch_size : 16
+seed : 123
+
+
+#GT
+GT_gnn:
+  layers_pre_mp : 1
+  dim_inner : 64
+  act : "gelu"
+  agg : "mean"
+  dropout : 0
+
+
+GT_gt:
+  with_edges : True
+  in_dim : 40
+  layer_type : "GINE+Transformer"
+  layers : 10
+  dim_hidden : 64
+  n_heads : 4
+
+  pna_degrees : 0
+  posenc_EquivStableLapPE : False
+  dropout : 0
+  attn_dropout : 0.5
+  layer_norm : False
+  batch_norm : True
+
+GT_dataset:
+  node_encoder : True
+  node_encoder_name : "SAN_PE"
+  node_encoder_bn : False
+  edge_encoder : False
+  edge_encoder_name : None
+  edge_encoder_bn : False
+
+
+#SAN
+GT_encLAP:
+  dim_in : 40
+  dim_pe : 16
+  layers : 3
+  heads : 4
+  post_layers : 0
+  max_freq : 12
+  norm_type : "BatchNorm"
+
+
+#SignNet
+GT_SignNetPE:
+  dim_in : 40
+  dim_pe : 16
+  model_type : "DeepSet"
+  phi_layers : 8
+  rho_layers : 8
+  max_freq : 12
+  hidden_channel : 120
+  out_channel : 4
+
+#SPE
+GT_SPE:
+  psi_layers : 4
+  psi_hidden_dim : 12
+  psi_activation : "relu"
+  psi_batch_norm : "batch_norm"
+  n_psis : 6
+  phi_n_layers : 8
+  phi_hidden_dim : 128
+  phi_out_dim : 12
+  phi_batch_norm : "batch_norm"
+  MLP_hidden_dim : 128
+  MLP_n_layer : 3
+  MLP_act : "relu"
+
+#RWPE
+GT_RWPE:
+  dim_in : 16
+  dim_pe : 32
+  steps : 28
+  model_type : "mlp"
+  layers : 5
+  norm : "batchnorm"
