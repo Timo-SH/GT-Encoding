@@ -1,5 +1,8 @@
+# Investigating the expressive power of Graph Transformers
 This repository contains code related to the master thesis 'Investigating the expressive power of Graph Transformers'.
-It provides an implementation of the graphGPS layer by Rampášek et al. (https://arxiv.org/abs/2205.12454) and the SAN algorithm by Kreuzer et al. (https://arxiv.org/abs/2106.03893). 
+
+It provides an implementation of the graphGPS layer by Rampášek et al. (https://arxiv.org/abs/2205.12454) 
+and the SAN algorithm by Kreuzer et al. (https://arxiv.org/abs/2106.03893). 
 # Code overview
 The code is seperated into multiple folders containing files related to the respective parts of the architecture. 
 
