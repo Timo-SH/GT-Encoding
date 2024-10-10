@@ -72,7 +72,7 @@ class GT_model(torch.nn.Module):
         elif config.dataset == "ZINC":
             self.post_mp = SAN_prediction_head(config, config.GT_gnn.dim_inner, 1, L=2)
         else:
-            self.post_mp = SAN_prediction_head(config, config.GT_gnn.dim_inner, 1, L=2)
+            self.post_mp = SAN_prediction_head(config, config.GT_gnn.dim_inner, 16, L=2)
 
 
     def forward(self, data):

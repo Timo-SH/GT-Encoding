@@ -27,7 +27,7 @@ GT_gt:
   in_dim : 40
   layer_type : "GINE+Transformer"
   layers : 10
-  dim_hidden : 40
+  dim_hidden : 64
   n_heads : 8
   num_linear_emb_node: 6
   num_linear_emb_edge: 4
@@ -41,7 +41,7 @@ GT_gt:
 
 GT_dataset:
   node_encoder : True
-  node_encoder_name : "SAN_PE"
+  node_encoder_name : "RRWP_PE"
   node_encoder_bn : False
   edge_encoder : False
   edge_encoder_name : None
@@ -87,7 +87,6 @@ GT_SPE:
 
 #RWPE
 GT_RWPE:
-  dim_in : 16
   dim_pe : 32
   steps : 28
   model_type : "mlp"

@@ -44,7 +44,7 @@ GT_gt:
 
 GT_dataset:
   node_encoder : True
-  node_encoder_name : "BasisNet_PE"
+  node_encoder_name : "RRWP_PE"
   node_encoder_bn : False
   edge_encoder : False
   edge_encoder_name : None
@@ -90,7 +90,7 @@ GT_SPE:
 
 #RWPE
 GT_RWPE:
-  dim_in : 16
+
   dim_pe : 16
   steps : 32
   model_type : "mlp"

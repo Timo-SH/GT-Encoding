@@ -1,0 +1,35 @@
+--------------------- Slurm Task Prolog ------------------------
+Job ID: 8956045
+Job name: run
+Host: cn-302
+Date: Do 10. Okt 13:52:38 CEST 2024
+User: timo.stoll
+Slurm account: log
+Slurm partition: log_gpu_24gb
+Work dir: 
+------------------
+Node usage:
+JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+8956045 log_gpu_2      run timo.sto  R       0:01      1 cn-302
+8956044 log_gpu_2      run timo.sto  R       0:11      1 cn-302
+------------------
+Show launch script with:
+sacct -B -j 
+------------------
+--------------------- Slurm Task Prolog ------------------------
+--------------------- Slurm Task Epilog ------------------------
+Job ID: 8956045
+Time: Do 10. Okt 13:53:40 CEST 2024
+Elapsed Time: 00:01:02
+Billing per second for TRES: billing=448,cpu=8,gres/gpu=1,mem=64G,node=1
+Show resource usage with e.g.:
+sacct -j 8956045 -o Elapsed,TotalCPU,UserCPU,SystemCPU,MaxRSS,ReqTRES%60,MaxDiskRead,MaxDiskWrite
+--------------------- Slurm Task Epilog ------------------------
+--------------------- Slurm Task Epilog ------------------------
+Job ID: 8956044
+Time: Do 10. Okt 13:53:48 CEST 2024
+Elapsed Time: 00:01:20
+Billing per second for TRES: billing=448,cpu=8,gres/gpu=1,mem=64G,node=1
+Show resource usage with e.g.:
+sacct -j 8956044 -o Elapsed,TotalCPU,UserCPU,SystemCPU,MaxRSS,ReqTRES%60,MaxDiskRead,MaxDiskWrite
+--------------------- Slurm Task Epilog ------------------------

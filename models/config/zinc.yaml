@@ -90,7 +90,6 @@ GT_SPE:
 
 #RWPE
 GT_RWPE:
-  dim_in : 16
   dim_pe : 32
   steps : 28
   model_type : "mlp"
