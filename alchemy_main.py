@@ -33,7 +33,7 @@ def run(config, create_dataset, create_model, train, test):
     #Create Model
     for i in range(1, config.train_runs + 1):
 
-        if config.model == "GT" and config.GT_dataset.node_encoder_name == "BasisNet":
+        if config.model == "GT" and config.GT_dataset.node_encoder_name == "BasisNet_PE":
             model = create_model(config).to(config.device)
             # model.reset_parameters()
 

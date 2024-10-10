@@ -9,6 +9,7 @@ from config import cfg, update_config
 from data.ZINC import ZINC_loader
 import argparse
 from data.Dataloader import DataLoader
+import torch_geometric
 import wandb
 
 
@@ -19,17 +20,25 @@ def run(config, create_dataset, create_model, train, test):
 
 
     #Create Dataloader
-    train_loader = DataLoader(train_dataset, config.train_batch_size, shuffle=True, num_workers=config.num_workers, drop_last=True)
-    test_loader = DataLoader(test_dataset, config.test_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
-    val_loader = DataLoader(val_dataset, config.val_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
+    if config.GT_dataset.node_encoder_name "BasisNet_PE" or config.GT_dataset.node_encoder_name "SAN_PE" or config.GT_dataset.node_encoder_name "RWPE_PE" or config.GT_dataset.node_encoder_name "RRWP_PE":
+        train_loader = DataLoader(train_dataset, config.train_batch_size, shuffle=True, num_workers=config.num_workers, drop_last=True)
+        test_loader = DataLoader(test_dataset, config.test_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
 
+        val_loader = DataLoader(val_dataset, config.val_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
+    else:
+        train_loader = torch_geometric.loader.DataLoader(train_dataset, config.train_batch_size, shuffle=True, num_workers=config.num_workers, drop_last=True)
+        test_loader = torch_geometric.loader.DataLoader(test_dataset, config.test_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
+
+        val_loader = torch_geometric.loader.DataLoader(val_dataset, config.val_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
+    
+        
     test_perf = []
     val_perf = []
     #Create model and prepare logging
     for i in range(1, config.train_runs + 1):
 
 
-        if config.model=="GT" and config.GT_dataset.node_encoder_name == "BasisNet":
+        if config.model=="GT" and config.GT_dataset.node_encoder_name == "BasisNet_PE":
             model = create_model(config).to(config.device)
             #model.reset_parameters()
 
