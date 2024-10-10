@@ -8,6 +8,13 @@ test_batch_size : 16
 seed : 62354
 
 
+BasisNet:
+  emb_dim: 16
+  n_phis: 8
+  node_feat: 1
+  edge_feat: 1
+
+
 
 #GT
 GT_gnn:
@@ -25,6 +32,8 @@ GT_gt:
   layers : 10
   dim_hidden : 64
   n_heads : 4
+  num_linear_emb_node: 1
+  num_linear_emb_edge: 1
 
   pna_degrees : 0
   posenc_EquivStableLapPE : False

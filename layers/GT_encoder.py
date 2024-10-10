@@ -28,6 +28,7 @@ class LaplacianNodeEncoder(torch.nn.Module):
         max_freq = config.GT_encLAP.max_freq
         norm_type = config.GT_encLAP.norm_type
         self.embedding = config.GT_encLAP.embedding
+        self.config = config
 
         #Computing the initial embedding
 
@@ -85,13 +86,20 @@ class LaplacianNodeEncoder(torch.nn.Module):
 
         #Initial embedding calculation
         if self.embedding == "linear":
-            h = self.embedding_h(data.x.float())
+            if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                h = self.embedding_h(data.x.squeeze(1))
+            else:
+                h = self.embedding_h(data.x.float())
+        
         else:
             h = self.embedding_h(data.x.long())
 
         if self.embedding_e is not None:
             if self.embedding == "linear":
-                data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
+                if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                    data.edge_attr = self.embedding_e(data.edge_attr)
+                else:
+                    data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
             else:
                 data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).long())
 
@@ -153,6 +161,7 @@ class SignNetEncoder(torch.nn.Module):
 
         #Maximum number of eigenvalues/eigenvectors
         max_freq = config.GT_SignNetPE.max_freq
+        self.config = config
 
         #Initial node and edge embedding
         if self.embedding == "linear":
@@ -186,13 +195,19 @@ class SignNetEncoder(torch.nn.Module):
         EigVec = data.laplacian_pe
         #Compute initial embedding
         if self.embedding == "linear":
-            h = self.embedding_h(data.x.float())
+            if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                h = self.embedding_h(data.x.squeeze(1))
+            else:
+                h = self.embedding_h(data.x.float())
         else:
             h = self.embedding_h(data.x.long())
 
         if self.embedding_e is not None:
             if self.embedding == "linear":
-                data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
+                if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                    data.edge_attr = self.embedding_e(data.edge_attr)
+                else:
+                    data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
             else:
                 data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).long())
         pos_enc = EigVec.unsqueeze(-1)
@@ -233,6 +248,7 @@ class SPEEncoder(torch.nn.Module):
         #GIN layer for phi
         self.phi = GINPhi(n_layers=config.GT_SPE.phi_n_layers, in_dim=config.GT_SPE.n_psis, hidden_dim=config.GT_SPE.phi_hidden_dim, out_dim=config.GT_SPE.phi_out_dim, bn=config.GT_SPE.phi_batch_norm, config=config )
         # Initial node embedding
+        self.config = config
         if self.embedding == "linear":
             self.embedding_h = nn.Linear(config.GT_gt.num_linear_emb_node, dim_emb - config.GT_SPE.phi_out_dim)
         else:
@@ -251,13 +267,19 @@ class SPEEncoder(torch.nn.Module):
         """
         #Compute initial embeddings
         if self.embedding == "linear":
-            h = self.embedding_h(data.x.float())
+            if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                h = self.embedding_h(data.x.squeeze(1))
+            else:
+                h = self.embedding_h(data.x.float())
         else:
             h = self.embedding_h(data.x.long())
 
         if self.embedding_e is not None:
             if self.embedding == "linear":
-                data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
+                if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                    data.edge_attr = self.embedding_e(data.edge_attr)
+                else:
+                    data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
             else:
                 data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).long())
         #Gather eigenvalues and eigenvectors
@@ -316,6 +338,7 @@ class RWPEEncoder(torch.nn.Module):
         model_type = config.GT_RWPE.model_type
         n_layers = config.GT_RWPE.layers #Number of MLP layers
         norm_type = config.GT_RWPE.norm
+        self.config = config
         #Initial embeddings
         if self.embedding == "linear":
             self.embedding_h = nn.Linear(config.GT_gt.num_linear_emb_node, dim_emb - dim_pe)
@@ -364,13 +387,19 @@ class RWPEEncoder(torch.nn.Module):
         """
         #Initial encoding computation
         if self.embedding == "linear":
-            h = self.embedding_h(data.x.float())
+            if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                h = self.embedding_h(data.x.squeeze(1))
+            else:
+                h = self.embedding_h(data.x.float())
         else:
             h = self.embedding_h(data.x.long())
 
         if self.embedding_e is not None:
-            if self.embedding == "linear":
-                data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
+             if self.embedding == "linear":
+                if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
+                    data.edge_attr = self.embedding_e(data.edge_attr)
+                else:
+                    data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).float())
             else:
                 data.edge_attr = self.embedding_e(data.edge_attr.unsqueeze(1).long())
         #Gather random walk encoding for all nodes
@@ -409,6 +438,7 @@ class RRWPEncoder(torch.nn.Module):
         n_layers = config.GT_RWPE.layers #Number of MLP layers
         norm_type = config.GT_RWPE.norm
         self.embedding = config.GT_RWPE.embedding
+        self.config = config
         #Initial embeddings
         if self.embedding == "linear":
             self.embedding_h = nn.Linear(config.GT_gt.num_linear_emb_node, dim_emb - dim_pe)

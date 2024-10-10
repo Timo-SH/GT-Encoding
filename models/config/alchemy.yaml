@@ -7,6 +7,11 @@ val_batch_size : 64
 test_batch_size : 64
 seed : 41
 
+BasisNet:
+  emb_dim: 16
+  n_phis: 8
+  node_feat: 6
+  edge_feat: 4
 
 #GT
 GT_gnn:
@@ -22,8 +27,10 @@ GT_gt:
   in_dim : 40
   layer_type : "GINE+Transformer"
   layers : 10
-  dim_hidden : 64
-  n_heads : 4
+  dim_hidden : 40
+  n_heads : 8
+  num_linear_emb_node: 6
+  num_linear_emb_edge: 4
 
   pna_degrees : 0
   posenc_EquivStableLapPE : False
@@ -34,7 +41,7 @@ GT_gt:
 
 GT_dataset:
   node_encoder : True
-  node_encoder_name : "BasisNet_PE"
+  node_encoder_name : "SAN_PE"
   node_encoder_bn : False
   edge_encoder : False
   edge_encoder_name : None
