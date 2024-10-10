@@ -395,7 +395,8 @@ class RWPEEncoder(torch.nn.Module):
             h = self.embedding_h(data.x.long())
 
         if self.embedding_e is not None:
-             if self.embedding == "linear":
+
+            if self.embedding == "linear":
                 if self.config.dataset == "QM9" or self.config.dataset == "ALCHEMY":
                     data.edge_attr = self.embedding_e(data.edge_attr)
                 else:
