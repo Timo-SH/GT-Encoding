@@ -20,8 +20,9 @@ slurm_basic.sh contains a simply slurm script to use the code on a slurm compati
 
 To use the graphGPS architecture with one of the implemented encodings, select the main file corresponding to the dataset that you want to evaluate.
 
-Currently available models are: SAN_PE, SignNet_PE, RWPE_PE, RRWP_PE, SPE_PE and BasisNet_PE
-The selected encoding and the model architecture can be set in the config file with the parameters GT_dataset.node_encoder_name and GT_gt.layer_type
+Currently available models are: SAN_PE, SignNet_PE, RWPE_PE, RRWP_PE, SPE_PE and BasisNet_PE.
+
+The selected encoding and the model architecture can be set in the config file with the parameters GT_dataset.node_encoder_name and GT_gt.layer_type.
 
 The main files can be simply run using python <dataset>_main.py 
 
