@@ -1,355 +1,60 @@
-/u/timo.stoll/.bashrc: line 1: /work/log1/timo.stoll/conda/etc/profile.d/conda.sh: Permission denied
-/u/timo.stoll/.bashrc: line 18: user: No such file or directory
-/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/graphgym/imports.py:14: UserWarning: Please install 'pytorch_lightning' via  'pip install pytorch_lightning' in order to use GraphGym
+ 46%|████▌     | 72/156 [00:16<00:19,  4.29batch/s]/u/timo.stoll/.bashrc: line 1: /work/log1/timo.stoll/conda/etc/profile.d/conda.sh: Permission denied
+ 47%|████▋     | 73/156 [00:16<00:17,  4.67batch/s]/u/timo.stoll/.bashrc: line 18: user: No such file or directory
+ 47%|████▋     | 74/156 [00:17<00:16,  5.00batch/s] 48%|████▊     | 75/156 [00:17<00:15,  5.25batch/s] 49%|████▊     | 76/156 [00:17<00:14,  5.40batch/s] 49%|████▉     | 77/156 [00:17<00:14,  5.53batch/s] 50%|█████     | 78/156 [00:17<00:13,  5.60batch/s] 51%|█████     | 79/156 [00:17<00:13,  5.64batch/s] 51%|█████▏    | 80/156 [00:18<00:22,  3.40batch/s] 52%|█████▏    | 81/156 [00:18<00:19,  3.90batch/s] 53%|█████▎    | 82/156 [00:18<00:17,  4.31batch/s] 53%|█████▎    | 83/156 [00:19<00:15,  4.66batch/s] 54%|█████▍    | 84/156 [00:19<00:14,  5.00batch/s] 54%|█████▍    | 85/156 [00:19<00:13,  5.24batch/s] 55%|█████▌    | 86/156 [00:19<00:12,  5.41batch/s] 56%|█████▌    | 87/156 [00:19<00:12,  5.53batch/s] 56%|█████▋    | 88/156 [00:19<00:12,  5.63batch/s] 57%|█████▋    | 89/156 [00:20<00:11,  5.75batch/s]/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/graphgym/imports.py:14: UserWarning: Please install 'pytorch_lightning' via  'pip install pytorch_lightning' in order to use GraphGym
   warnings.warn("Please install 'pytorch_lightning' via  "
-/work/log1/timo.stoll/TransformerExp/TransformerExp/main.py:98: UserWarning: You have chosen to seed training with CUDNN deterministic setting,which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
-  warnings.warn('You have chosen to seed training with CUDNN deterministic setting,'
-/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/graphgym/imports.py:14: UserWarning: Please install 'pytorch_lightning' via  'pip install pytorch_lightning' in order to use GraphGym
-  warnings.warn("Please install 'pytorch_lightning' via  "
-wandb: Currently logged in as: timo_s (timo_s-rwth-aachen-university). Use `wandb login --relogin` to force relogin
-/work/log1/timo.stoll/TransformerExp/TransformerExp/main.py:98: UserWarning: You have chosen to seed training with CUDNN deterministic setting,which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
-  warnings.warn('You have chosen to seed training with CUDNN deterministic setting,'
-wandb: Currently logged in as: timo_s (timo_s-rwth-aachen-university). Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.18.3 is available!  To upgrade, please run:
+ 58%|█████▊    | 90/156 [00:20<00:19,  3.43batch/s] 58%|█████▊    | 91/156 [00:20<00:16,  3.93batch/s] 59%|█████▉    | 92/156 [00:21<00:14,  4.27batch/s] 60%|█████▉    | 93/156 [00:21<00:13,  4.66batch/s] 60%|██████    | 94/156 [00:21<00:12,  4.97batch/s] 61%|██████    | 95/156 [00:21<00:11,  5.18batch/s] 62%|██████▏   | 96/156 [00:21<00:11,  5.23batch/s] 62%|██████▏   | 97/156 [00:21<00:10,  5.41batch/s] 63%|██████▎   | 98/156 [00:22<00:10,  5.56batch/s] 63%|██████▎   | 99/156 [00:22<00:09,  5.72batch/s] 64%|██████▍   | 100/156 [00:22<00:16,  3.38batch/s]wandb: Currently logged in as: timo_s (timo_s-rwth-aachen-university). Use `wandb login --relogin` to force relogin
+ 65%|██████▍   | 101/156 [00:22<00:14,  3.88batch/s] 65%|██████▌   | 102/156 [00:23<00:12,  4.27batch/s] 66%|██████▌   | 103/156 [00:23<00:11,  4.69batch/s] 67%|██████▋   | 104/156 [00:23<00:10,  5.03batch/s] 67%|██████▋   | 105/156 [00:23<00:09,  5.22batch/s] 68%|██████▊   | 106/156 [00:23<00:09,  5.42batch/s] 69%|██████▊   | 107/156 [00:23<00:08,  5.56batch/s] 69%|██████▉   | 108/156 [00:24<00:08,  5.60batch/s] 70%|██████▉   | 109/156 [00:24<00:08,  5.69batch/s] 71%|███████   | 110/156 [00:24<00:14,  3.27batch/s] 71%|███████   | 111/156 [00:25<00:12,  3.74batch/s] 72%|███████▏  | 112/156 [00:25<00:10,  4.19batch/s]wandb: wandb version 0.18.3 is available!  To upgrade, please run:
 wandb:  $ pip install wandb --upgrade
 wandb: Tracking run with wandb version 0.16.6
-wandb: Run data is saved locally in /work/log1/timo.stoll/TransformerExp/TransformerExp/wandb/run-20241010_135243-xkwtzovs
+wandb: Run data is saved locally in /work/log1/timo.stoll/TransformerExp/TransformerExp/wandb/run-20241010_141832-2h6yd1eu
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run driven-glade-138
-wandb: ⭐️ View project at https://wandb.ai/timo_s-rwth-aachen-university/BREC
-wandb: 🚀 View run at https://wandb.ai/timo_s-rwth-aachen-university/BREC/runs/xkwtzovs
-2024-10-10 13:52:47.386 | INFO     | __main__:main:210 - Device: cuda
+wandb: Syncing run proud-tree-590
+wandb: ⭐️ View project at https://wandb.ai/timo_s-rwth-aachen-university/SAN_ZINC
+wandb: 🚀 View run at https://wandb.ai/timo_s-rwth-aachen-university/SAN_ZINC/runs/2h6yd1eu
+ 72%|███████▏  | 113/156 [00:25<00:09,  4.55batch/s]/work/log1/timo.stoll/TransformerExp/TransformerExp/alchemy_main.py:102: UserWarning: You have chosen to seed training with CUDNN deterministic setting,which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training with CUDNN deterministic setting,'
 /work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/data/dataset.py:238: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
   if osp.exists(f) and torch.load(f) != _repr(self.pre_transform):
 /work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/data/dataset.py:246: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
   if osp.exists(f) and torch.load(f) != _repr(self.pre_filter):
-/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/brec/dataset.py:50: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  self.data, self.slices = torch.load(self.processed_paths[0])
-2024-10-10 13:52:47.579 | INFO     | __main__:evaluate:97 - Basic part starting ---
-  0%|          | 0/60 [00:00<?, ?it/s]2024-10-10 13:52:47.585 | INFO     | __main__:evaluate:104 - ID: 0
-wandb: wandb version 0.18.3 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.16.6
-wandb: Run data is saved locally in /work/log1/timo.stoll/TransformerExp/TransformerExp/wandb/run-20241010_135245-uf3r4ups
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run vibrant-wood-139
-wandb: ⭐️ View project at https://wandb.ai/timo_s-rwth-aachen-university/BREC
-wandb: 🚀 View run at https://wandb.ai/timo_s-rwth-aachen-university/BREC/runs/uf3r4ups
-2024-10-10 13:52:47.999 | INFO     | __main__:main:210 - Device: cuda
-/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/data/dataset.py:238: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  if osp.exists(f) and torch.load(f) != _repr(self.pre_transform):
-/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/data/dataset.py:246: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  if osp.exists(f) and torch.load(f) != _repr(self.pre_filter):
-/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/brec/dataset.py:50: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  self.data, self.slices = torch.load(self.processed_paths[0])
-2024-10-10 13:52:48.117 | INFO     | __main__:evaluate:97 - Basic part starting ---
-  0%|          | 0/60 [00:00<?, ?it/s]2024-10-10 13:52:48.119 | INFO     | __main__:evaluate:104 - ID: 0
-2024-10-10 13:52:54.452 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2211, -0.1534,  0.0197, -0.3694,  0.2762, -0.2839, -0.3126, -0.1847,
-        -0.0869, -0.3292,  0.0070, -0.0746,  0.0853,  0.0716,  0.5255, -0.3132],
-       device='cuda:0')
-2024-10-10 13:52:54.454 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2216, -0.1550,  0.0181, -0.3711,  0.2778, -0.2814, -0.3162, -0.1830,
-        -0.0894, -0.3327,  0.0075, -0.0749,  0.0880,  0.0728,  0.5293, -0.3125],
-       device='cuda:0')
-2024-10-10 13:52:54.637 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2216, -0.1550,  0.0181, -0.3711,  0.2778, -0.2814, -0.3162, -0.1830,
-        -0.0894, -0.3327,  0.0075, -0.0749,  0.0880,  0.0728,  0.5293, -0.3125],
-       device='cuda:0')
-2024-10-10 13:52:54.638 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2216, -0.1550,  0.0181, -0.3711,  0.2778, -0.2814, -0.3162, -0.1830,
-        -0.0894, -0.3327,  0.0075, -0.0749,  0.0880,  0.0728,  0.5293, -0.3125],
-       device='cuda:0')
-2024-10-10 13:52:54.640 | INFO     | __main__:evaluate:165 - Correct num in current part: 1
-2024-10-10 13:52:54.641 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[2.8712e+08]], device='cuda:0')
-2024-10-10 13:52:54.642 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.7039]], device='cuda:0')
-  2%|▏         | 1/60 [00:07<06:56,  7.06s/it]2024-10-10 13:52:54.643 | INFO     | __main__:evaluate:104 - ID: 1
-2024-10-10 13:52:54.817 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1363, -0.0421,  0.2413,  0.0076,  0.1701, -0.7164, -0.1297, -0.5413,
-        -0.0459,  0.1910, -0.4189,  0.1551, -0.1441,  0.2626,  0.6342, -0.5304],
-       device='cuda:0')
-2024-10-10 13:52:54.819 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1357, -0.0410,  0.2406,  0.0062,  0.1711, -0.7157, -0.1315, -0.5399,
-        -0.0470,  0.1903, -0.4183,  0.1540, -0.1440,  0.2623,  0.6351, -0.5294],
-       device='cuda:0')
-2024-10-10 13:52:54.995 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1357, -0.0410,  0.2406,  0.0062,  0.1711, -0.7157, -0.1315, -0.5399,
-        -0.0470,  0.1903, -0.4183,  0.1540, -0.1440,  0.2623,  0.6351, -0.5294],
-       device='cuda:0')
-2024-10-10 13:52:54.996 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1357, -0.0410,  0.2406,  0.0062,  0.1711, -0.7157, -0.1315, -0.5399,
-        -0.0470,  0.1903, -0.4183,  0.1540, -0.1440,  0.2623,  0.6351, -0.5294],
-       device='cuda:0')
-2024-10-10 13:52:54.998 | INFO     | __main__:evaluate:165 - Correct num in current part: 1
-2024-10-10 13:52:54.999 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[4.5147e+08]], device='cuda:0')
-2024-10-10 13:52:55.000 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.8007]], device='cuda:0')
-  2%|▏         | 1/60 [00:06<06:46,  6.88s/it]2024-10-10 13:52:55.002 | INFO     | __main__:evaluate:104 - ID: 1
-2024-10-10 13:52:59.960 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2914,  0.1007, -0.1193, -0.0068, -0.1536, -0.2286, -0.2367, -0.1098,
-        -0.0824,  0.0873, -0.3458, -0.1883, -0.1797, -0.1958,  0.1775,  0.0107],
-       device='cuda:0')
-2024-10-10 13:52:59.962 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2914,  0.1007, -0.1193, -0.0068, -0.1535, -0.2286, -0.2368, -0.1098,
-        -0.0824,  0.0872, -0.3458, -0.1884, -0.1796, -0.1959,  0.1777,  0.0107],
-       device='cuda:0')
-2024-10-10 13:53:00.096 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2914,  0.1007, -0.1193, -0.0068, -0.1535, -0.2286, -0.2368, -0.1098,
-        -0.0824,  0.0872, -0.3458, -0.1884, -0.1796, -0.1959,  0.1777,  0.0107],
-       device='cuda:0')
-2024-10-10 13:53:00.097 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2914,  0.1007, -0.1193, -0.0068, -0.1535, -0.2286, -0.2368, -0.1098,
-        -0.0824,  0.0872, -0.3458, -0.1884, -0.1796, -0.1959,  0.1777,  0.0107],
-       device='cuda:0')
-2024-10-10 13:53:00.099 | INFO     | __main__:evaluate:165 - Correct num in current part: 2
-2024-10-10 13:53:00.100 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[9017382.]], device='cuda:0')
-2024-10-10 13:53:00.101 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.6491]], device='cuda:0')
-  3%|▎         | 2/60 [00:12<05:54,  6.12s/it]2024-10-10 13:53:00.102 | INFO     | __main__:evaluate:104 - ID: 2
-2024-10-10 13:53:00.232 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.3287,  0.0789, -0.1707,  0.0196, -0.2471, -0.2017, -0.2593, -0.1920,
-        -0.0214,  0.1655, -0.3663, -0.1901, -0.2413, -0.1113,  0.1017,  0.0956],
-       device='cuda:0')
-2024-10-10 13:53:00.234 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.3288,  0.0790, -0.1709,  0.0194, -0.2468, -0.2020, -0.2592, -0.1915,
-        -0.0215,  0.1652, -0.3658, -0.1902, -0.2406, -0.1112,  0.1019,  0.0954],
-       device='cuda:0')
-2024-10-10 13:53:00.373 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.3288,  0.0790, -0.1709,  0.0194, -0.2468, -0.2020, -0.2592, -0.1915,
-        -0.0215,  0.1652, -0.3658, -0.1902, -0.2406, -0.1112,  0.1019,  0.0954],
-       device='cuda:0')
-2024-10-10 13:53:00.374 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.3288,  0.0790, -0.1709,  0.0194, -0.2468, -0.2020, -0.2592, -0.1915,
-        -0.0215,  0.1652, -0.3658, -0.1902, -0.2406, -0.1112,  0.1019,  0.0954],
-       device='cuda:0')
-2024-10-10 13:53:00.376 | INFO     | __main__:evaluate:165 - Correct num in current part: 2
-2024-10-10 13:53:00.376 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[31569984.]], device='cuda:0')
-2024-10-10 13:53:00.377 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.6922]], device='cuda:0')
-  3%|▎         | 2/60 [00:12<05:47,  6.00s/it]2024-10-10 13:53:00.378 | INFO     | __main__:evaluate:104 - ID: 2
-2024-10-10 13:53:05.409 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.4350, -0.2314,  0.2165,  0.1284, -0.0027,  0.0390, -0.0128, -0.0116,
-        -0.3423, -0.1566, -0.0460, -0.1293,  0.1410,  0.0688, -0.0073,  0.0886],
-       device='cuda:0')
-2024-10-10 13:53:05.410 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.4347, -0.2314,  0.2162,  0.1282, -0.0027,  0.0387, -0.0129, -0.0111,
-        -0.3421, -0.1568, -0.0461, -0.1293,  0.1409,  0.0688, -0.0075,  0.0885],
-       device='cuda:0')
-2024-10-10 13:53:05.544 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.4347, -0.2314,  0.2162,  0.1282, -0.0027,  0.0387, -0.0129, -0.0111,
-        -0.3421, -0.1568, -0.0461, -0.1293,  0.1409,  0.0688, -0.0075,  0.0885],
-       device='cuda:0')
-2024-10-10 13:53:05.545 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.4347, -0.2314,  0.2162,  0.1282, -0.0027,  0.0387, -0.0129, -0.0111,
-        -0.3421, -0.1568, -0.0461, -0.1293,  0.1409,  0.0688, -0.0075,  0.0885],
-       device='cuda:0')
-2024-10-10 13:53:05.547 | INFO     | __main__:evaluate:165 - Correct num in current part: 3
-2024-10-10 13:53:05.548 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[12656522.]], device='cuda:0')
-2024-10-10 13:53:05.549 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.7179]], device='cuda:0')
-  5%|▌         | 3/60 [00:17<05:31,  5.81s/it]2024-10-10 13:53:05.549 | INFO     | __main__:evaluate:104 - ID: 3
-2024-10-10 13:53:05.599 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1809, -0.1775,  0.0053, -0.1680,  0.0516, -0.0202,  0.1876,  0.1370,
-        -0.1652, -0.2113, -0.1393, -0.1067,  0.2580, -0.0019,  0.0408, -0.2024],
-       device='cuda:0')
-2024-10-10 13:53:05.601 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1808, -0.1772,  0.0052, -0.1681,  0.0517, -0.0204,  0.1872,  0.1370,
-        -0.1650, -0.2113, -0.1390, -0.1062,  0.2580, -0.0019,  0.0408, -0.2026],
-       device='cuda:0')
-2024-10-10 13:53:05.732 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1808, -0.1772,  0.0052, -0.1681,  0.0517, -0.0204,  0.1872,  0.1370,
-        -0.1650, -0.2113, -0.1390, -0.1062,  0.2580, -0.0019,  0.0408, -0.2026],
-       device='cuda:0')
-2024-10-10 13:53:05.733 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1808, -0.1772,  0.0052, -0.1681,  0.0517, -0.0204,  0.1872,  0.1370,
-        -0.1650, -0.2113, -0.1390, -0.1062,  0.2580, -0.0019,  0.0408, -0.2026],
-       device='cuda:0')
-2024-10-10 13:53:05.734 | INFO     | __main__:evaluate:165 - Correct num in current part: 3
-2024-10-10 13:53:05.735 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[4640574.]], device='cuda:0')
-2024-10-10 13:53:05.736 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.4722]], device='cuda:0')
-  5%|▌         | 3/60 [00:17<05:25,  5.71s/it]2024-10-10 13:53:05.737 | INFO     | __main__:evaluate:104 - ID: 3
-2024-10-10 13:53:10.848 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 3.0936e-01, -6.7862e-02, -8.2393e-02,  1.9174e-01, -5.5291e-03,
-         2.8326e-01, -2.7578e-04, -6.0407e-02, -1.9535e-01, -1.9488e-01,
-         7.1562e-02,  6.5057e-02,  4.9762e-02,  4.1197e-02,  3.3009e-02,
-         6.2150e-02], device='cuda:0')
-2024-10-10 13:53:10.850 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.3110, -0.0678, -0.0787,  0.1907, -0.0076,  0.2822, -0.0010, -0.0632,
-        -0.1934, -0.1974,  0.0747,  0.0666,  0.0483,  0.0410,  0.0331,  0.0615],
-       device='cuda:0')
-2024-10-10 13:53:10.979 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1515,  0.1193,  0.0368,  0.1832, -0.1694,  0.2399,  0.0341, -0.3766,
-         0.0432, -0.3489,  0.2706,  0.1680,  0.0156,  0.1020,  0.0905,  0.1331],
-       device='cuda:0')
-2024-10-10 13:53:10.980 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1441,  0.1260,  0.0395,  0.1820, -0.1711,  0.2408,  0.0364, -0.3881,
-         0.0521, -0.3569,  0.2757,  0.1692,  0.0154,  0.1045,  0.0945,  0.1416],
-       device='cuda:0')
-2024-10-10 13:53:10.983 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 3.0936e-01, -6.7862e-02, -8.2393e-02,  1.9174e-01, -5.5291e-03,
-         2.8326e-01, -2.7579e-04, -6.0407e-02, -1.9535e-01, -1.9488e-01,
-         7.1562e-02,  6.5057e-02,  4.9762e-02,  4.1197e-02,  3.3009e-02,
-         6.2150e-02], device='cuda:0')
-2024-10-10 13:53:10.984 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 3.0936e-01, -6.7862e-02, -8.2393e-02,  1.9174e-01, -5.5291e-03,
-         2.8326e-01, -2.7577e-04, -6.0407e-02, -1.9535e-01, -1.9488e-01,
-         7.1562e-02,  6.5057e-02,  4.9762e-02,  4.1197e-02,  3.3009e-02,
-         6.2150e-02], device='cuda:0')
-2024-10-10 13:53:10.986 | INFO     | __main__:evaluate:165 - Correct num in current part: 4
-2024-10-10 13:53:10.987 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[2.8917e+09]], device='cuda:0')
-2024-10-10 13:53:10.988 | INFO     | __main__:evaluate:170 - reliability: True tensor([[1.7419]], device='cuda:0')
-  7%|▋         | 4/60 [00:23<05:17,  5.66s/it]2024-10-10 13:53:10.988 | INFO     | __main__:evaluate:104 - ID: 4
-2024-10-10 13:53:11.111 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1515,  0.1193,  0.0368,  0.1832, -0.1694,  0.2399,  0.0341, -0.3766,
-         0.0432, -0.3489,  0.2706,  0.1680,  0.0156,  0.1020,  0.0905,  0.1331],
-       device='cuda:0')
-2024-10-10 13:53:11.112 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1515,  0.1193,  0.0368,  0.1832, -0.1694,  0.2399,  0.0341, -0.3766,
-         0.0432, -0.3489,  0.2706,  0.1680,  0.0156,  0.1020,  0.0905,  0.1331],
-       device='cuda:0')
-2024-10-10 13:53:11.114 | INFO     | __main__:evaluate:165 - Correct num in current part: 4
-2024-10-10 13:53:11.115 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[6.9318e+09]], device='cuda:0')
-2024-10-10 13:53:11.116 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.5671]], device='cuda:0')
-  7%|▋         | 4/60 [00:22<05:12,  5.58s/it]2024-10-10 13:53:11.117 | INFO     | __main__:evaluate:104 - ID: 4
-2024-10-10 13:53:16.316 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2015, -0.0931, -0.1001, -0.1775,  0.1638,  0.2350,  0.1245,  0.0677,
-        -0.0350, -0.2337, -0.1027, -0.1947,  0.2556,  0.0601, -0.1056,  0.1654],
-       device='cuda:0')
-2024-10-10 13:53:16.317 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2013, -0.0927, -0.0997, -0.1776,  0.1637,  0.2348,  0.1242,  0.0676,
-        -0.0348, -0.2335, -0.1027, -0.1944,  0.2555,  0.0602, -0.1053,  0.1657],
-       device='cuda:0')
-2024-10-10 13:53:16.338 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2071, -0.1190, -0.0975, -0.1761,  0.1523,  0.2419,  0.1026,  0.1198,
-        -0.0556, -0.2063, -0.1033, -0.2366,  0.1919,  0.0470, -0.1063,  0.1711],
-       device='cuda:0')
-2024-10-10 13:53:16.339 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2071, -0.1185, -0.0968, -0.1760,  0.1521,  0.2422,  0.1026,  0.1197,
-        -0.0552, -0.2062, -0.1035, -0.2362,  0.1923,  0.0473, -0.1061,  0.1711],
-       device='cuda:0')
-2024-10-10 13:53:16.451 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2013, -0.0927, -0.0997, -0.1776,  0.1637,  0.2348,  0.1242,  0.0676,
-        -0.0348, -0.2335, -0.1027, -0.1944,  0.2555,  0.0602, -0.1053,  0.1657],
-       device='cuda:0')
-2024-10-10 13:53:16.452 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2013, -0.0927, -0.0997, -0.1776,  0.1637,  0.2348,  0.1242,  0.0676,
-        -0.0348, -0.2335, -0.1027, -0.1944,  0.2555,  0.0602, -0.1053,  0.1657],
-       device='cuda:0')
-2024-10-10 13:53:16.454 | INFO     | __main__:evaluate:165 - Correct num in current part: 5
-2024-10-10 13:53:16.455 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[36831816.]], device='cuda:0')
-2024-10-10 13:53:16.456 | INFO     | __main__:evaluate:170 - reliability: True tensor([[1.0358]], device='cuda:0')
-  8%|▊         | 5/60 [00:28<05:07,  5.59s/it]2024-10-10 13:53:16.457 | INFO     | __main__:evaluate:104 - ID: 5
-2024-10-10 13:53:16.575 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2071, -0.1185, -0.0968, -0.1760,  0.1521,  0.2422,  0.1026,  0.1197,
-        -0.0552, -0.2062, -0.1035, -0.2362,  0.1923,  0.0473, -0.1061,  0.1711],
-       device='cuda:0')
-2024-10-10 13:53:16.576 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2071, -0.1185, -0.0968, -0.1760,  0.1521,  0.2422,  0.1026,  0.1197,
-        -0.0552, -0.2062, -0.1035, -0.2362,  0.1923,  0.0473, -0.1061,  0.1711],
-       device='cuda:0')
-2024-10-10 13:53:16.578 | INFO     | __main__:evaluate:165 - Correct num in current part: 5
-2024-10-10 13:53:16.579 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[25186768.]], device='cuda:0')
-2024-10-10 13:53:16.580 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.8860]], device='cuda:0')
-  8%|▊         | 5/60 [00:28<05:04,  5.54s/it]2024-10-10 13:53:16.581 | INFO     | __main__:evaluate:104 - ID: 5
-2024-10-10 13:53:21.774 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.7064,  0.7640,  0.5401, -0.0697,  0.1410,  0.1616,  0.1022, -0.1807,
-         0.5566,  0.1402,  0.1927, -0.3622, -0.5611, -0.2990,  0.4063, -0.3242],
-       device='cuda:0')
-2024-10-10 13:53:21.776 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.7064,  0.7640,  0.5401, -0.0697,  0.1409,  0.1617,  0.1022, -0.1807,
-         0.5566,  0.1403,  0.1928, -0.3623, -0.5610, -0.2992,  0.4063, -0.3241],
-       device='cuda:0')
-2024-10-10 13:53:21.792 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.6976,  0.7730,  0.5905, -0.0598,  0.0575,  0.2044,  0.1078, -0.1966,
-         0.5838,  0.1674,  0.2293, -0.4710, -0.5986, -0.3422,  0.4751, -0.3263],
-       device='cuda:0')
-2024-10-10 13:53:21.793 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.6974,  0.7729,  0.5905, -0.0597,  0.0573,  0.2045,  0.1078, -0.1966,
-         0.5837,  0.1675,  0.2294, -0.4711, -0.5985, -0.3423,  0.4750, -0.3262],
-       device='cuda:0')
-2024-10-10 13:53:21.909 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.7064,  0.7640,  0.5401, -0.0697,  0.1409,  0.1617,  0.1022, -0.1807,
-         0.5566,  0.1403,  0.1928, -0.3623, -0.5610, -0.2992,  0.4063, -0.3241],
-       device='cuda:0')
-2024-10-10 13:53:21.910 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.7064,  0.7640,  0.5401, -0.0697,  0.1409,  0.1617,  0.1022, -0.1807,
-         0.5566,  0.1403,  0.1928, -0.3623, -0.5610, -0.2992,  0.4063, -0.3241],
-       device='cuda:0')
-2024-10-10 13:53:21.912 | INFO     | __main__:evaluate:165 - Correct num in current part: 6
-2024-10-10 13:53:21.913 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[2518514.]], device='cuda:0')
-2024-10-10 13:53:21.914 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.9032]], device='cuda:0')
- 10%|█         | 6/60 [00:34<04:59,  5.55s/it]2024-10-10 13:53:21.914 | INFO     | __main__:evaluate:104 - ID: 6
-2024-10-10 13:53:21.923 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.6974,  0.7729,  0.5905, -0.0597,  0.0573,  0.2045,  0.1078, -0.1966,
-         0.5837,  0.1675,  0.2294, -0.4711, -0.5985, -0.3423,  0.4750, -0.3262],
-       device='cuda:0')
-2024-10-10 13:53:21.924 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.6974,  0.7729,  0.5905, -0.0597,  0.0573,  0.2045,  0.1078, -0.1966,
-         0.5837,  0.1675,  0.2294, -0.4711, -0.5985, -0.3423,  0.4750, -0.3262],
-       device='cuda:0')
-2024-10-10 13:53:21.926 | INFO     | __main__:evaluate:165 - Correct num in current part: 6
-2024-10-10 13:53:21.927 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[2697117.7500]], device='cuda:0')
-2024-10-10 13:53:21.928 | INFO     | __main__:evaluate:170 - reliability: True tensor([[1.4987]], device='cuda:0')
- 10%|█         | 6/60 [00:33<04:55,  5.47s/it]2024-10-10 13:53:21.929 | INFO     | __main__:evaluate:104 - ID: 6
-2024-10-10 13:53:26.861 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1620, -0.1374, -0.1140,  0.0619,  0.0681,  0.3405, -0.2979, -0.1030,
-        -0.1307,  0.1927,  0.3497,  0.1088,  0.1132, -0.2153,  0.0358,  0.1620],
-       device='cuda:0')
-2024-10-10 13:53:26.862 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1619, -0.1375, -0.1138,  0.0618,  0.0682,  0.3399, -0.2976, -0.1028,
-        -0.1309,  0.1925,  0.3495,  0.1084,  0.1129, -0.2151,  0.0359,  0.1619],
-       device='cuda:0')
-2024-10-10 13:53:26.968 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1620, -0.1374, -0.1140,  0.0619,  0.0681,  0.3405, -0.2979, -0.1030,
-        -0.1307,  0.1927,  0.3497,  0.1088,  0.1132, -0.2153,  0.0358,  0.1620],
-       device='cuda:0')
-2024-10-10 13:53:26.969 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1620, -0.1374, -0.1140,  0.0619,  0.0681,  0.3405, -0.2979, -0.1030,
-        -0.1307,  0.1927,  0.3497,  0.1088,  0.1132, -0.2153,  0.0358,  0.1620],
-       device='cuda:0')
-2024-10-10 13:53:26.970 | INFO     | __main__:evaluate:165 - Correct num in current part: 7
-2024-10-10 13:53:26.970 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[54152360.]], device='cuda:0')
-2024-10-10 13:53:26.971 | INFO     | __main__:evaluate:170 - reliability: True tensor([[1.1134]], device='cuda:0')
- 12%|█▏        | 7/60 [00:38<04:42,  5.33s/it]2024-10-10 13:53:26.972 | INFO     | __main__:evaluate:104 - ID: 7
-2024-10-10 13:53:27.108 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1632, -0.1294, -0.1377,  0.0646,  0.0549,  0.3684, -0.3112, -0.1195,
-        -0.1239,  0.2077,  0.3755,  0.1398,  0.1317, -0.2239,  0.0291,  0.1702],
-       device='cuda:0')
-2024-10-10 13:53:27.109 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1631, -0.1295, -0.1375,  0.0647,  0.0550,  0.3680, -0.3109, -0.1193,
-        -0.1241,  0.2075,  0.3753,  0.1394,  0.1315, -0.2238,  0.0292,  0.1703],
-       device='cuda:0')
-2024-10-10 13:53:27.221 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([ 0.1632, -0.1294, -0.1377,  0.0646,  0.0549,  0.3684, -0.3112, -0.1195,
-        -0.1239,  0.2077,  0.3755,  0.1398,  0.1317, -0.2239,  0.0291,  0.1702],
-       device='cuda:0')
-2024-10-10 13:53:27.222 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([ 0.1632, -0.1294, -0.1377,  0.0646,  0.0549,  0.3684, -0.3112, -0.1195,
-        -0.1239,  0.2077,  0.3755,  0.1398,  0.1317, -0.2239,  0.0291,  0.1702],
-       device='cuda:0')
-2024-10-10 13:53:27.223 | INFO     | __main__:evaluate:165 - Correct num in current part: 7
-2024-10-10 13:53:27.224 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[44167056.]], device='cuda:0')
-2024-10-10 13:53:27.224 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.7938]], device='cuda:0')
- 12%|█▏        | 7/60 [00:39<04:49,  5.47s/it]2024-10-10 13:53:27.225 | INFO     | __main__:evaluate:104 - ID: 7
-2024-10-10 13:53:32.170 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1211,  0.0282, -0.2474, -0.0875, -0.0472, -0.3584, -0.2513,  0.3617,
-        -0.1038, -0.2481,  0.0011,  0.1251, -0.3322,  0.2834,  0.1576,  0.1962],
-       device='cuda:0')
-2024-10-10 13:53:32.171 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1215,  0.0280, -0.2475, -0.0874, -0.0476, -0.3580, -0.2504,  0.3614,
-        -0.1043, -0.2488,  0.0016,  0.1249, -0.3318,  0.2831,  0.1574,  0.1962],
-       device='cuda:0')
-2024-10-10 13:53:32.307 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1215,  0.0280, -0.2475, -0.0874, -0.0476, -0.3580, -0.2504,  0.3614,
-        -0.1043, -0.2488,  0.0016,  0.1249, -0.3318,  0.2831,  0.1574,  0.1962],
-       device='cuda:0')
-2024-10-10 13:53:32.308 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1215,  0.0280, -0.2475, -0.0874, -0.0476, -0.3580, -0.2504,  0.3614,
-        -0.1043, -0.2488,  0.0016,  0.1249, -0.3318,  0.2831,  0.1574,  0.1962],
-       device='cuda:0')
-2024-10-10 13:53:32.309 | INFO     | __main__:evaluate:165 - Correct num in current part: 8
-2024-10-10 13:53:32.310 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[1.2145e+08]], device='cuda:0')
-2024-10-10 13:53:32.311 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.9747]], device='cuda:0')
- 13%|█▎        | 8/60 [00:44<04:37,  5.33s/it]2024-10-10 13:53:32.312 | INFO     | __main__:evaluate:104 - ID: 8
-2024-10-10 13:53:32.570 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1841,  0.0047, -0.2714, -0.1152, -0.0744, -0.3293, -0.1861,  0.3572,
-        -0.1113, -0.2832,  0.0362,  0.1223, -0.2960,  0.2542,  0.1682,  0.1603],
-       device='cuda:0')
-2024-10-10 13:53:32.571 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1850,  0.0043, -0.2717, -0.1152, -0.0749, -0.3291, -0.1857,  0.3573,
-        -0.1117, -0.2837,  0.0364,  0.1224, -0.2962,  0.2537,  0.1680,  0.1596],
-       device='cuda:0')
-2024-10-10 13:53:32.703 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1850,  0.0043, -0.2717, -0.1152, -0.0749, -0.3291, -0.1857,  0.3573,
-        -0.1117, -0.2837,  0.0364,  0.1224, -0.2962,  0.2537,  0.1680,  0.1596],
-       device='cuda:0')
-2024-10-10 13:53:32.705 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1850,  0.0043, -0.2717, -0.1152, -0.0749, -0.3291, -0.1857,  0.3573,
-        -0.1117, -0.2837,  0.0364,  0.1224, -0.2962,  0.2537,  0.1680,  0.1596],
-       device='cuda:0')
-2024-10-10 13:53:32.706 | INFO     | __main__:evaluate:165 - Correct num in current part: 8
-2024-10-10 13:53:32.707 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[7333216.]], device='cuda:0')
-2024-10-10 13:53:32.708 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.7948]], device='cuda:0')
- 13%|█▎        | 8/60 [00:45<04:44,  5.47s/it]2024-10-10 13:53:32.710 | INFO     | __main__:evaluate:104 - ID: 8
-2024-10-10 13:53:37.530 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1477, -0.0511, -0.0024, -0.0702, -0.0075,  0.2935, -0.2646,  0.0923,
-        -0.2980, -0.2351,  0.2994, -0.0162,  0.1655, -0.1209,  0.2417,  0.0576],
-       device='cuda:0')
-2024-10-10 13:53:37.531 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1486, -0.0505, -0.0037, -0.0706, -0.0077,  0.2938, -0.2644,  0.0917,
-        -0.2987, -0.2344,  0.2992, -0.0168,  0.1665, -0.1221,  0.2414,  0.0580],
-       device='cuda:0')
-2024-10-10 13:53:37.662 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.1486, -0.0505, -0.0037, -0.0706, -0.0077,  0.2938, -0.2644,  0.0917,
-        -0.2987, -0.2344,  0.2992, -0.0168,  0.1665, -0.1221,  0.2414,  0.0580],
-       device='cuda:0')
-2024-10-10 13:53:37.664 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.1486, -0.0505, -0.0037, -0.0706, -0.0077,  0.2938, -0.2644,  0.0917,
-        -0.2987, -0.2344,  0.2992, -0.0168,  0.1665, -0.1221,  0.2414,  0.0580],
-       device='cuda:0')
-2024-10-10 13:53:37.665 | INFO     | __main__:evaluate:165 - Correct num in current part: 9
-2024-10-10 13:53:37.666 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[5.2236e+08]], device='cuda:0')
-2024-10-10 13:53:37.667 | INFO     | __main__:evaluate:170 - reliability: True tensor([[1.4253]], device='cuda:0')
- 15%|█▌        | 9/60 [00:49<04:32,  5.34s/it]2024-10-10 13:53:37.668 | INFO     | __main__:evaluate:104 - ID: 9
-2024-10-10 13:53:37.932 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2255, -0.0212, -0.1272, -0.1498, -0.0372,  0.2372, -0.1299, -0.0825,
-        -0.3027, -0.1365,  0.2235, -0.0630,  0.1883, -0.3314,  0.1186,  0.2032],
-       device='cuda:0')
-2024-10-10 13:53:37.933 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2279, -0.0208, -0.1282, -0.1498, -0.0378,  0.2366, -0.1282, -0.0852,
-        -0.3038, -0.1349,  0.2223, -0.0638,  0.1894, -0.3356,  0.1168,  0.2053],
-       device='cuda:0')
-2024-10-10 13:53:38.064 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-0.2279, -0.0208, -0.1282, -0.1498, -0.0378,  0.2366, -0.1282, -0.0852,
-        -0.3038, -0.1349,  0.2223, -0.0638,  0.1894, -0.3356,  0.1168,  0.2053],
-       device='cuda:0')
-2024-10-10 13:53:38.065 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-0.2279, -0.0208, -0.1282, -0.1498, -0.0378,  0.2366, -0.1282, -0.0852,
-        -0.3038, -0.1349,  0.2223, -0.0638,  0.1894, -0.3356,  0.1168,  0.2053],
-       device='cuda:0')
-2024-10-10 13:53:38.067 | INFO     | __main__:evaluate:165 - Correct num in current part: 9
-2024-10-10 13:53:38.068 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[5.8468e+08]], device='cuda:0')
-2024-10-10 13:53:38.068 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.6861]], device='cuda:0')
- 15%|█▌        | 9/60 [00:50<04:37,  5.44s/it]2024-10-10 13:53:38.069 | INFO     | __main__:evaluate:104 - ID: 9
-slurmstepd-cn-302: error: *** JOB 8956045 ON cn-302 CANCELLED AT 2024-10-10T13:53:40 ***
-2024-10-10 13:53:43.293 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-1.3198,  0.0338,  0.5739,  0.9273,  0.1330,  0.9507,  1.7387, -1.4697,
-        -0.0108, -1.0905, -0.3166, -0.1263, -0.6197,  0.5242,  0.0879, -1.1018],
-       device='cuda:0')
-2024-10-10 13:53:43.294 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-1.3222,  0.0349,  0.5758,  0.9292,  0.1327,  0.9527,  1.7423, -1.4729,
-        -0.0114, -1.0925, -0.3180, -0.1261, -0.6203,  0.5265,  0.0876, -1.1026],
-       device='cuda:0')
-2024-10-10 13:53:43.426 | INFO     | __main__:T2_calculation:63 - X_mean = tensor([-1.3222,  0.0349,  0.5758,  0.9292,  0.1327,  0.9527,  1.7423, -1.4729,
-        -0.0114, -1.0925, -0.3180, -0.1261, -0.6203,  0.5265,  0.0876, -1.1026],
-       device='cuda:0')
-2024-10-10 13:53:43.427 | INFO     | __main__:T2_calculation:64 - Y_mean = tensor([-1.3222,  0.0349,  0.5758,  0.9292,  0.1327,  0.9527,  1.7423, -1.4729,
-        -0.0114, -1.0925, -0.3180, -0.1261, -0.6203,  0.5265,  0.0876, -1.1026],
-       device='cuda:0')
-2024-10-10 13:53:43.428 | INFO     | __main__:evaluate:165 - Correct num in current part: 10
-2024-10-10 13:53:43.429 | INFO     | __main__:evaluate:169 - isomorphic: True tensor([[1.7493e+08]], device='cuda:0')
-2024-10-10 13:53:43.430 | INFO     | __main__:evaluate:170 - reliability: True tensor([[0.2115]], device='cuda:0')
- 17%|█▋        | 10/60 [00:55<04:30,  5.42s/it]2024-10-10 13:53:43.432 | INFO     | __main__:evaluate:104 - ID: 10
-slurmstepd-cn-302: error: *** JOB 8956044 ON cn-302 CANCELLED AT 2024-10-10T13:53:48 ***
+/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/io/fs.py:215: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(f, map_location)
+ 73%|███████▎  | 114/156 [00:25<00:08,  4.88batch/s] 74%|███████▎  | 115/156 [00:25<00:07,  5.14batch/s] 74%|███████▍  | 116/156 [00:25<00:07,  5.37batch/s] 75%|███████▌  | 117/156 [00:26<00:07,  5.45batch/s] 76%|███████▌  | 118/156 [00:26<00:07,  5.19batch/s] 76%|███████▋  | 119/156 [00:26<00:06,  5.36batch/s] 77%|███████▋  | 120/156 [00:27<00:11,  3.03batch/s] 78%|███████▊  | 121/156 [00:27<00:09,  3.52batch/s] 78%|███████▊  | 122/156 [00:27<00:08,  4.01batch/s] 79%|███████▉  | 123/156 [00:27<00:07,  4.39batch/s] 79%|███████▉  | 124/156 [00:27<00:06,  4.75batch/s] 80%|████████  | 125/156 [00:28<00:06,  5.02batch/s] 81%|████████  | 126/156 [00:28<00:05,  5.21batch/s] 81%|████████▏ | 127/156 [00:28<00:05,  5.33batch/s] 82%|████████▏ | 128/156 [00:28<00:05,  5.51batch/s] 83%|████████▎ | 129/156 [00:28<00:04,  5.62batch/s]/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch_geometric/data/in_memory_dataset.py:300: UserWarning: It is not recommended to directly access the internal storage format `data` of an 'InMemoryDataset'. If you are absolutely certain what you are doing, access the internal storage via `InMemoryDataset._data` instead to suppress this warning. Alternatively, you can access stacked individual attributes of every graph via `dataset.{attr_name}`.
+  warnings.warn(msg)
+/work/log1/timo.stoll/TransformerExp/TransformerExp/train.py:31: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+  0%|          | 0/156 [00:00<?, ?batch/s]  0%|          | 0/156 [00:00<?, ?batch/s]
+Traceback (most recent call last):
+  File "/work/log1/timo.stoll/TransformerExp/TransformerExp/alchemy_main.py", line 124, in <module>
+    run(config=configuration, create_dataset=loader_alchemy, create_model=create_GT, train=train, test=test)
+  File "/work/log1/timo.stoll/TransformerExp/TransformerExp/alchemy_main.py", line 60, in run
+    train_loss = train(train_loader, model, optimizer,loss, config.device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/log1/timo.stoll/TransformerExp/TransformerExp/train.py", line 35, in train
+    for data in tepoch:
+  File "/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/log1/timo.stoll/TransformerExp/TransformerExp/data/Dataloader.py", line 111, in __call__
+    raise TypeError(f'DataLoader found invalid type: {type(elem)}')
+TypeError: DataLoader found invalid type: <class 'NoneType'>
+ 83%|████████▎ | 130/156 [00:29<00:08,  3.09batch/s] 84%|████████▍ | 131/156 [00:29<00:06,  3.60batch/s] 85%|████████▍ | 132/156 [00:29<00:05,  4.09batch/s] 85%|████████▌ | 133/156 [00:29<00:05,  4.44batch/s] 86%|████████▌ | 134/156 [00:30<00:04,  4.68batch/s] 87%|████████▋ | 135/156 [00:30<00:04,  4.93batch/s] 87%|████████▋ | 136/156 [00:30<00:04,  4.99batch/s] 88%|████████▊ | 137/156 [00:30<00:03,  5.09batch/s] 88%|████████▊ | 138/156 [00:30<00:03,  5.36batch/s] 89%|████████▉ | 139/156 [00:31<00:03,  5.34batch/s]wandb: - 0.012 MB of 0.012 MB uploaded 90%|████████▉ | 140/156 [00:31<00:05,  3.10batch/s] 90%|█████████ | 141/156 [00:31<00:04,  3.61batch/s] 91%|█████████ | 142/156 [00:32<00:03,  4.10batch/s]wandb: \ 0.012 MB of 0.012 MB uploaded 92%|█████████▏| 143/156 [00:32<00:02,  4.40batch/s] 92%|█████████▏| 144/156 [00:32<00:02,  4.64batch/s] 93%|█████████▎| 145/156 [00:32<00:02,  5.00batch/s] 94%|█████████▎| 146/156 [00:32<00:01,  5.09batch/s] 94%|█████████▍| 147/156 [00:32<00:01,  5.16batch/s] 95%|█████████▍| 148/156 [00:33<00:01,  5.39batch/s]wandb: | 0.012 MB of 0.012 MB uploaded 96%|█████████▌| 149/156 [00:33<00:01,  5.35batch/s] 96%|█████████▌| 150/156 [00:33<00:01,  3.09batch/s]wandb: / 0.012 MB of 0.012 MB uploaded 97%|█████████▋| 151/156 [00:34<00:01,  3.51batch/s] 97%|█████████▋| 152/156 [00:34<00:01,  3.93batch/s] 98%|█████████▊| 153/156 [00:34<00:00,  4.28batch/s] 99%|█████████▊| 154/156 [00:34<00:00,  4.58batch/s] 99%|█████████▉| 155/156 [00:34<00:00,  4.90batch/s]100%|██████████| 156/156 [00:35<00:00,  5.21batch/s]100%|██████████| 156/156 [00:35<00:00,  4.46batch/s]
+wandb: - 0.012 MB of 0.012 MB uploadedwandb: \ 0.014 MB of 0.021 MB uploadedwandb: | 0.021 MB of 0.026 MB uploadedwandb: 🚀 View run proud-tree-590 at: https://wandb.ai/timo_s-rwth-aachen-university/SAN_ZINC/runs/2h6yd1eu
+wandb: ⭐️ View project at: https://wandb.ai/timo_s-rwth-aachen-university/SAN_ZINC
+wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241010_141832-2h6yd1eu/logs
+/work/log1/timo.stoll/conda/envs/GTencoding/lib/python3.12/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+/work/log1/timo.stoll/TransformerExp/TransformerExp/train.py:31: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+  0%|          | 0/156 [00:00<?, ?batch/s]  1%|          | 1/156 [00:00<00:35,  4.32batch/s]  1%|▏         | 2/156 [00:00<00:40,  3.81batch/s]  2%|▏         | 3/156 [00:00<00:34,  4.39batch/s]  3%|▎         | 4/156 [00:01<00:58,  2.61batch/s]  3%|▎         | 5/156 [00:01<00:47,  3.21batch/s]  4%|▍         | 6/156 [00:01<00:40,  3.72batch/s]  4%|▍         | 7/156 [00:01<00:34,  4.30batch/s]  5%|▌         | 8/156 [00:02<00:30,  4.79batch/s]  6%|▌         | 9/156 [00:02<00:28,  5.20batch/s]  6%|▋         | 10/156 [00:02<00:26,  5.53batch/s]  7%|▋         | 11/156 [00:02<00:25,  5.75batch/s]  8%|▊         | 12/156 [00:02<00:24,  5.85batch/s]  8%|▊         | 13/156 [00:02<00:24,  5.92batch/s]  9%|▉         | 14/156 [00:03<00:43,  3.27batch/s] 10%|▉         | 15/156 [00:03<00:37,  3.81batch/s] 10%|█         | 16/156 [00:03<00:33,  4.23batch/s] 11%|█         | 17/156 [00:03<00:29,  4.70batch/s] 12%|█▏        | 18/156 [00:04<00:27,  5.06batch/s] 12%|█▏        | 19/156 [00:04<00:25,  5.41batch/s] 13%|█▎        | 20/156 [00:04<00:25,  5.43batch/s] 13%|█▎        | 21/156 [00:04<00:24,  5.56batch/s] 14%|█▍        | 22/156 [00:04<00:23,  5.76batch/s] 15%|█▍        | 23/156 [00:04<00:22,  5.92batch/s] 15%|█▌        | 24/156 [00:05<00:38,  3.41batch/s] 16%|█▌        | 25/156 [00:05<00:33,  3.90batch/s] 17%|█▋        | 26/156 [00:05<00:29,  4.38batch/s] 17%|█▋        | 27/156 [00:05<00:26,  4.82batch/s] 18%|█▊        | 28/156 [00:06<00:24,  5.20batch/s] 19%|█▊        | 29/156 [00:06<00:23,  5.48batch/s] 19%|█▉        | 30/156 [00:06<00:22,  5.65batch/s] 20%|█▉        | 31/156 [00:06<00:21,  5.83batch/s] 21%|██        | 32/156 [00:06<00:20,  5.98batch/s] 21%|██        | 33/156 [00:06<00:20,  6.02batch/s] 22%|██▏       | 34/156 [00:07<00:37,  3.23batch/s] 22%|██▏       | 35/156 [00:07<00:32,  3.77batch/s] 23%|██▎       | 36/156 [00:07<00:28,  4.26batch/s] 24%|██▎       | 37/156 [00:08<00:25,  4.72batch/s] 24%|██▍       | 38/156 [00:08<00:23,  5.10batch/s] 25%|██▌       | 39/156 [00:08<00:21,  5.43batch/s] 26%|██▌       | 40/156 [00:08<00:20,  5.70batch/s] 26%|██▋       | 41/156 [00:08<00:19,  5.87batch/s] 27%|██▋       | 42/156 [00:08<00:18,  6.00batch/s] 28%|██▊       | 43/156 [00:09<00:18,  6.09batch/s] 28%|██▊       | 44/156 [00:09<00:32,  3.44batch/s] 29%|██▉       | 45/156 [00:09<00:28,  3.93batch/s] 29%|██▉       | 46/156 [00:09<00:25,  4.38batch/s] 30%|███       | 47/156 [00:10<00:22,  4.85batch/s] 31%|███       | 48/156 [00:10<00:21,  5.12batch/s] 31%|███▏      | 49/156 [00:10<00:20,  5.25batch/s] 32%|███▏      | 50/156 [00:10<00:19,  5.56batch/s] 33%|███▎      | 51/156 [00:10<00:18,  5.66batch/s] 33%|███▎      | 52/156 [00:10<00:17,  5.83batch/s] 34%|███▍      | 53/156 [00:11<00:17,  6.00batch/s] 35%|███▍      | 54/156 [00:11<00:28,  3.59batch/s] 35%|███▌      | 55/156 [00:11<00:24,  4.13batch/s] 36%|███▌      | 56/156 [00:11<00:21,  4.61batch/s] 37%|███▋      | 57/156 [00:12<00:19,  5.01batch/s] 37%|███▋      | 58/156 [00:12<00:18,  5.35batch/s] 38%|███▊      | 59/156 [00:12<00:17,  5.62batch/s] 38%|███▊      | 60/156 [00:12<00:16,  5.82batch/s] 39%|███▉      | 61/156 [00:12<00:15,  6.00batch/s] 40%|███▉      | 62/156 [00:12<00:15,  6.07batch/s] 40%|████      | 63/156 [00:13<00:15,  6.14batch/s] 41%|████      | 64/156 [00:13<00:25,  3.59batch/s] 42%|████▏     | 65/156 [00:13<00:22,  4.03batch/s] 42%|████▏     | 66/156 [00:13<00:20,  4.34batch/s] 43%|████▎     | 67/156 [00:14<00:18,  4.76batch/s] 44%|████▎     | 68/156 [00:14<00:17,  4.98batch/s] 44%|████▍     | 69/156 [00:14<00:16,  5.33batch/s] 45%|████▍     | 70/156 [00:14<00:15,  5.40batch/s] 46%|████▌     | 71/156 [00:14<00:15,  5.56batch/s] 46%|████▌     | 72/156 [00:14<00:14,  5.77batch/s] 47%|████▋     | 73/156 [00:15<00:14,  5.79batch/s] 47%|████▋     | 74/156 [00:15<00:25,  3.16batch/s] 48%|████▊     | 75/156 [00:15<00:21,  3.70batch/s] 49%|████▊     | 76/156 [00:16<00:19,  4.12batch/s] 49%|████▉     | 77/156 [00:16<00:17,  4.61batch/s] 50%|█████     | 78/156 [00:16<00:15,  4.99batch/s] 51%|█████     | 79/156 [00:16<00:14,  5.34batch/s] 51%|█████▏    | 80/156 [00:16<00:13,  5.61batch/s] 52%|█████▏    | 81/156 [00:16<00:12,  5.78batch/s] 53%|█████▎    | 82/156 [00:17<00:12,  5.96batch/s] 53%|█████▎    | 83/156 [00:17<00:12,  5.96batch/s] 54%|█████▍    | 84/156 [00:17<00:20,  3.54batch/s] 54%|█████▍    | 85/156 [00:17<00:17,  4.08batch/s] 55%|█████▌    | 86/156 [00:18<00:15,  4.57batch/s] 56%|█████▌    | 87/156 [00:18<00:14,  4.82batch/s] 56%|█████▋    | 88/156 [00:18<00:13,  5.20batch/s] 57%|█████▋    | 89/156 [00:18<00:12,  5.34batch/s] 58%|█████▊    | 90/156 [00:18<00:12,  5.40batch/s] 58%|█████▊    | 91/156 [00:18<00:11,  5.60batch/s] 59%|█████▉    | 92/156 [00:19<00:11,  5.60batch/s] 60%|█████▉    | 93/156 [00:19<00:10,  5.80batch/s] 60%|██████    | 94/156 [00:19<00:17,  3.50batch/s] 61%|██████    | 95/156 [00:20<00:15,  3.89batch/s] 62%|██████▏   | 96/156 [00:20<00:13,  4.38batch/s] 62%|██████▏   | 97/156 [00:20<00:12,  4.66batch/s] 63%|██████▎   | 98/156 [00:20<00:11,  5.05batch/s] 63%|██████▎   | 99/156 [00:20<00:10,  5.34batch/s] 64%|██████▍   | 100/156 [00:20<00:10,  5.58batch/s] 65%|██████▍   | 101/156 [00:21<00:09,  5.77batch/s] 65%|██████▌   | 102/156 [00:21<00:09,  5.92batch/s] 66%|██████▌   | 103/156 [00:21<00:08,  6.05batch/s] 67%|██████▋   | 104/156 [00:21<00:14,  3.52batch/s] 67%|██████▋   | 105/156 [00:22<00:12,  4.05batch/s] 68%|██████▊   | 106/156 [00:22<00:11,  4.54batch/s] 69%|██████▊   | 107/156 [00:22<00:09,  4.93batch/s] 69%|██████▉   | 108/156 [00:22<00:09,  5.30batch/s] 70%|██████▉   | 109/156 [00:22<00:08,  5.58batch/s] 71%|███████   | 110/156 [00:22<00:08,  5.72batch/s] 71%|███████   | 111/156 [00:23<00:07,  5.86batch/s] 72%|███████▏  | 112/156 [00:23<00:07,  6.01batch/s] 72%|███████▏  | 113/156 [00:23<00:07,  6.10batch/s] 73%|███████▎  | 114/156 [00:23<00:12,  3.24batch/s] 74%|███████▎  | 115/156 [00:24<00:10,  3.76batch/s] 74%|███████▍  | 116/156 [00:24<00:09,  4.29batch/s] 75%|███████▌  | 117/156 [00:24<00:08,  4.76batch/s] 76%|███████▌  | 118/156 [00:24<00:07,  5.12batch/s] 76%|███████▋  | 119/156 [00:24<00:06,  5.43batch/s] 77%|███████▋  | 120/156 [00:24<00:06,  5.61batch/s] 78%|███████▊  | 121/156 [00:25<00:06,  5.81batch/s] 78%|███████▊  | 122/156 [00:25<00:05,  5.96batch/s] 79%|███████▉  | 123/156 [00:25<00:05,  6.03batch/s] 79%|███████▉  | 124/156 [00:26<00:09,  3.35batch/s] 80%|████████  | 125/156 [00:26<00:07,  3.90batch/s] 81%|████████  | 126/156 [00:26<00:06,  4.40batch/s] 81%|████████▏ | 127/156 [00:26<00:05,  4.86batch/s] 82%|████████▏ | 128/156 [00:26<00:05,  5.14batch/s] 83%|████████▎ | 129/156 [00:26<00:04,  5.45batch/s] 83%|████████▎ | 130/156 [00:26<00:04,  5.68batch/s] 84%|████████▍ | 131/156 [00:27<00:04,  5.87batch/s] 85%|████████▍ | 132/156 [00:27<00:04,  5.97batch/s] 85%|████████▌ | 133/156 [00:27<00:03,  6.10batch/s] 86%|████████▌ | 134/156 [00:28<00:06,  3.29batch/s] 87%|████████▋ | 135/156 [00:28<00:05,  3.82batch/s] 87%|████████▋ | 136/156 [00:28<00:04,  4.36batch/s] 88%|████████▊ | 137/156 [00:28<00:03,  4.78batch/s] 88%|████████▊ | 138/156 [00:28<00:03,  5.18batch/s] 89%|████████▉ | 139/156 [00:28<00:03,  5.44batch/s] 90%|████████▉ | 140/156 [00:29<00:02,  5.66batch/s] 90%|█████████ | 141/156 [00:29<00:02,  5.86batch/s] 91%|█████████ | 142/156 [00:29<00:02,  5.97batch/s] 92%|█████████▏| 143/156 [00:29<00:02,  6.07batch/s] 92%|█████████▏| 144/156 [00:30<00:03,  3.27batch/s] 93%|█████████▎| 145/156 [00:30<00:02,  3.85batch/s] 94%|█████████▎| 146/156 [00:30<00:02,  4.27batch/s] 94%|█████████▍| 147/156 [00:30<00:01,  4.67batch/s] 95%|█████████▍| 148/156 [00:30<00:01,  4.91batch/s] 96%|█████████▌| 149/156 [00:30<00:01,  5.26batch/s] 96%|█████████▌| 150/156 [00:31<00:01,  5.37batch/s] 97%|█████████▋| 151/156 [00:31<00:00,  5.65batch/s] 97%|█████████▋| 152/156 [00:31<00:00,  5.85batch/s] 98%|█████████▊| 153/156 [00:31<00:00,  6.03batch/s] 99%|█████████▊| 154/156 [00:32<00:00,  3.52batch/s] 99%|█████████▉| 155/156 [00:32<00:00,  4.07batch/s]100%|██████████| 156/156 [00:32<00:00,  4.55batch/s]100%|██████████| 156/156 [00:32<00:00,  4.80batch/s]
+  0%|          | 0/156 [00:00<?, ?batch/s]  1%|          | 1/156 [00:00<00:40,  3.78batch/s]  1%|▏         | 2/156 [00:00<00:32,  4.73batch/s]  2%|▏         | 3/156 [00:00<00:47,  3.21batch/s]  3%|▎         | 4/156 [00:01<00:38,  3.97batch/s]  3%|▎         | 5/156 [00:01<00:33,  4.56batch/s]  4%|▍         | 6/156 [00:01<00:29,  5.07batch/s]  4%|▍         | 7/156 [00:01<00:27,  5.37batch/s]  5%|▌         | 8/156 [00:01<00:36,  4.00batch/s]  6%|▌         | 9/156 [00:02<00:32,  4.48batch/s]  6%|▋         | 10/156 [00:02<00:29,  4.91batch/s]  7%|▋         | 11/156 [00:02<00:27,  5.25batch/s]  8%|▊         | 12/156 [00:02<00:26,  5.51batch/s]  8%|▊         | 13/156 [00:02<00:34,  4.13batch/s]  9%|▉         | 14/156 [00:03<00:30,  4.59batch/s] 10%|▉         | 15/156 [00:03<00:28,  5.02batch/s] 10%|█         | 16/156 [00:03<00:26,  5.37batch/s] 11%|█         | 17/156 [00:03<00:24,  5.66batch/s] 12%|█▏        | 18/156 [00:03<00:33,  4.15batch/s] 12%|█▏        | 19/156 [00:04<00:29,  4.65batch/s] 13%|█▎        | 20/156 [00:04<00:26,  5.04batch/s] 13%|█▎        | 21/156 [00:04<00:25,  5.40batch/s] 14%|█▍        | 22/156 [00:04<00:23,  5.62batch/s] 15%|█▍        | 23/156 [00:04<00:31,  4.27batch/s]slurmstepd-cn-302: error: *** JOB 8956080 ON cn-302 CANCELLED AT 2024-10-10T14:19:27 ***
+ 15%|█▌        | 24/156 [00:05<00:27,  4.72batch/s]

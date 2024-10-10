@@ -13,4 +13,4 @@ export PYTHONUNBUFFERED=1
 source ~/.bashrc
 conda activate GTencoding
 
-python brec_main.py
+python alchemy_main.py

@@ -44,7 +44,7 @@ GT_gt:
 
 GT_dataset:
   node_encoder : True
-  node_encoder_name : "SAN_PE"
+  node_encoder_name : "SPE_PE"
   node_encoder_bn : False
   edge_encoder : False
   edge_encoder_name : None

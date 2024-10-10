@@ -1,8 +1,8 @@
 --------------------- Slurm Task Prolog ------------------------
-Job ID: 8956045
+Job ID: 8956082
 Job name: run
 Host: cn-302
-Date: Do 10. Okt 13:52:38 CEST 2024
+Date: Do 10. Okt 14:18:26 CEST 2024
 User: timo.stoll
 Slurm account: log
 Slurm partition: log_gpu_24gb
@@ -10,26 +10,29 @@ Work dir:
 ------------------
 Node usage:
 JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-8956045 log_gpu_2      run timo.sto  R       0:01      1 cn-302
-8956044 log_gpu_2      run timo.sto  R       0:11      1 cn-302
+8956082 log_gpu_2      run timo.sto  R       0:00      1 cn-302
+8956080 log_gpu_2      run timo.sto  R       0:32      1 cn-302
 ------------------
 Show launch script with:
 sacct -B -j 
 ------------------
 --------------------- Slurm Task Prolog ------------------------
+Total number of parameters: 455943
+Epoch: 001, Train Loss: 1.2386, Val: 1.1273, Test: 1.1773, Seconds: 38.8353, 
 --------------------- Slurm Task Epilog ------------------------
-Job ID: 8956045
-Time: Do 10. Okt 13:53:40 CEST 2024
-Elapsed Time: 00:01:02
+Job ID: 8956082
+Time: Do 10. Okt 14:18:49 CEST 2024
+Elapsed Time: 00:00:23
 Billing per second for TRES: billing=448,cpu=8,gres/gpu=1,mem=64G,node=1
 Show resource usage with e.g.:
-sacct -j 8956045 -o Elapsed,TotalCPU,UserCPU,SystemCPU,MaxRSS,ReqTRES%60,MaxDiskRead,MaxDiskWrite
+sacct -j 8956082 -o Elapsed,TotalCPU,UserCPU,SystemCPU,MaxRSS,ReqTRES%60,MaxDiskRead,MaxDiskWrite
 --------------------- Slurm Task Epilog ------------------------
+Epoch: 002, Train Loss: 1.0296, Val: 1.8136, Test: 1.1773, Seconds: 34.2056, 
 --------------------- Slurm Task Epilog ------------------------
-Job ID: 8956044
-Time: Do 10. Okt 13:53:48 CEST 2024
-Elapsed Time: 00:01:20
+Job ID: 8956080
+Time: Do 10. Okt 14:19:27 CEST 2024
+Elapsed Time: 00:01:33
 Billing per second for TRES: billing=448,cpu=8,gres/gpu=1,mem=64G,node=1
 Show resource usage with e.g.:
-sacct -j 8956044 -o Elapsed,TotalCPU,UserCPU,SystemCPU,MaxRSS,ReqTRES%60,MaxDiskRead,MaxDiskWrite
+sacct -j 8956080 -o Elapsed,TotalCPU,UserCPU,SystemCPU,MaxRSS,ReqTRES%60,MaxDiskRead,MaxDiskWrite
 --------------------- Slurm Task Epilog ------------------------

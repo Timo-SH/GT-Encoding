@@ -20,7 +20,7 @@ def run(config, create_dataset, create_model, train, test):
 
 
     #Create Dataloader
-    if config.GT_dataset.node_encoder_name "BasisNet_PE" or config.GT_dataset.node_encoder_name "SAN_PE" or config.GT_dataset.node_encoder_name "RWPE_PE" or config.GT_dataset.node_encoder_name "RRWP_PE":
+    if config.GT_dataset.node_encoder_name == "BasisNet_PE" or config.GT_dataset.node_encoder_name == "SAN_PE" or config.GT_dataset.node_encoder_name == "RWPE_PE" or config.GT_dataset.node_encoder_name  == "RRWP_PE":
         train_loader = DataLoader(train_dataset, config.train_batch_size, shuffle=True, num_workers=config.num_workers, drop_last=True)
         test_loader = DataLoader(test_dataset, config.test_batch_size, shuffle=False, num_workers=config.num_workers, drop_last=True)
 
